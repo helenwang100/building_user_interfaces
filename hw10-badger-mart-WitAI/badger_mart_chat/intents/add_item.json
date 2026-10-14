@@ -1,0 +1,7 @@
+{
+    "name": "add_item",
+    "entities": [
+        "item_type:item_type",
+        "wit$number:number"
+    ]
+}

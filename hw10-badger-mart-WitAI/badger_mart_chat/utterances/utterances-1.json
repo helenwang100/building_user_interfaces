@@ -1,0 +1,1482 @@
+{
+    "utterances": [
+        {
+            "text": "CS571 is fun",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "I am done",
+            "entities": [],
+            "traits": [],
+            "intent": "checkout"
+        },
+        {
+            "text": "add -3 coconuts to cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 6,
+                    "body": "-3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add -9 apples to",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 13,
+                    "body": "apples",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 6,
+                    "body": "-9",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 1 apple to my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 11,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 2 apples",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 5 bagels to my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "bagels",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 coconuts into cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 coconuts into my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 coconuts into my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 donuts",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 donuts into my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 donuts into my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add 8 eggs into my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 10,
+                    "body": "eggs",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add a bagel to my basket",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 11,
+                    "body": "bagel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add an apple to my basket",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 12,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add apples to my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 4,
+                    "end": 10,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "add bagel to my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 4,
+                    "end": 9,
+                    "body": "bagel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "apple cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 0,
+                    "end": 5,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "bagel cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 0,
+                    "end": 5,
+                    "body": "bagel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "checkout",
+            "entities": [],
+            "traits": [],
+            "intent": "checkout"
+        },
+        {
+            "text": "cost",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of an egg",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 11,
+                    "end": 14,
+                    "body": "egg",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of apples",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 14,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of bagels",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 14,
+                    "body": "bagels",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of coconuts",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of donut",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 13,
+                    "body": "donut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of donuts",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 14,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "cost of eggs",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 12,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "delete 2 apples from cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete 2 bagels from cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 15,
+                    "body": "bagels",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete 2 coconuts from cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete 2 coconuts from my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete 7 eggs from basket",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 13,
+                    "body": "eggs",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "7",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete 7 eggs from cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "7",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 13,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete an apple from cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 10,
+                    "end": 15,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete an apple from my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 10,
+                    "end": 15,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "delete an egg",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 10,
+                    "end": 13,
+                    "body": "egg",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete an egg from basket",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 10,
+                    "end": 13,
+                    "body": "egg",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete donuts from cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 13,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "delete eggs from cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 11,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "get help",
+            "entities": [],
+            "traits": [],
+            "intent": "get_help"
+        },
+        {
+            "text": "help",
+            "entities": [],
+            "traits": [],
+            "intent": "get_help"
+        },
+        {
+            "text": "help me",
+            "entities": [],
+            "traits": [],
+            "intent": "get_help"
+        },
+        {
+            "text": "how much are bagels",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 13,
+                    "end": 19,
+                    "body": "bagels",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much do apples cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 12,
+                    "end": 18,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much do bagels cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 12,
+                    "end": 18,
+                    "body": "bagels",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much do coconuts cost",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much do donuts cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 12,
+                    "end": 18,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much do eggs cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 12,
+                    "end": 16,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much does a coconut cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 16,
+                    "end": 23,
+                    "body": "coconut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much does a donut cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 16,
+                    "end": 21,
+                    "body": "donut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much does an egg cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 17,
+                    "end": 20,
+                    "body": "egg",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much does cost",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "how much is a bagel",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 14,
+                    "end": 19,
+                    "body": "bagel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "i need help",
+            "entities": [],
+            "traits": [],
+            "intent": "get_help"
+        },
+        {
+            "text": "i want to checkout",
+            "entities": [],
+            "traits": [],
+            "intent": "checkout"
+        },
+        {
+            "text": "i want to see what's in my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "view_cart"
+        },
+        {
+            "text": "i'm finished shopping",
+            "entities": [],
+            "traits": [],
+            "intent": "checkout"
+        },
+        {
+            "text": "i've finished shopping",
+            "entities": [],
+            "traits": [],
+            "intent": "checkout"
+        },
+        {
+            "text": "please help",
+            "entities": [],
+            "traits": [],
+            "intent": "get_help"
+        },
+        {
+            "text": "price of",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "put -456 bagels into cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 15,
+                    "body": "bagels",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 8,
+                    "body": "-456",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put -6 apples into cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 6,
+                    "body": "-6",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put -78 eggs to cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 7,
+                    "body": "-78",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 12,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put -90 bagels to cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 8,
+                    "end": 14,
+                    "body": "bagels",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 7,
+                    "body": "-90",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 10 apples in my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 6,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 13,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 2 apples into my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 3 coconuts into my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 6 coconuts",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "6",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 7 bagels in my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "7",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "bagels",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 coconuts into my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 coconuts into my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 donuts",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 donuts into basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 donuts into my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 donuts into my cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 12,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put 8 eggs into my basket",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 5,
+                    "body": "8",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 6,
+                    "end": 10,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put an apple in my basket",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 12,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put an egg into my basket",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 7,
+                    "end": 10,
+                    "body": "egg",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put bagels into cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 4,
+                    "end": 10,
+                    "body": "bagels",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put bagels into my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 4,
+                    "end": 10,
+                    "body": "bagels",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "put coconuts into my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "add_item"
+        },
+        {
+            "text": "remove 7 apples",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "7",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove 7 donuts",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "7",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 15,
+                    "body": "donuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove 7 eggs",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "7",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 13,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove 7 eggs from cart",
+            "entities": [
+                {
+                    "entity": "wit$number:number",
+                    "start": 7,
+                    "end": 8,
+                    "body": "7",
+                    "entities": []
+                },
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 13,
+                    "body": "eggs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove a donut from cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 14,
+                    "body": "donut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove a donut from my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 9,
+                    "end": 14,
+                    "body": "donut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove an apple from cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 10,
+                    "end": 15,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "remove an apple from my cart",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 10,
+                    "end": 15,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "remove_item"
+        },
+        {
+            "text": "show me what's in my basket",
+            "entities": [],
+            "traits": [],
+            "intent": "view_cart"
+        },
+        {
+            "text": "show me what's in my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "view_cart"
+        },
+        {
+            "text": "view my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "view_cart"
+        },
+        {
+            "text": "what can I buy",
+            "entities": [],
+            "traits": [],
+            "intent": "get_help"
+        },
+        {
+            "text": "what do I have",
+            "entities": [],
+            "traits": [],
+            "intent": "view_cart"
+        },
+        {
+            "text": "what does an apple cost",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 13,
+                    "end": 18,
+                    "body": "apple",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what is available",
+            "entities": [],
+            "traits": [],
+            "intent": "get_items"
+        },
+        {
+            "text": "what items are available",
+            "entities": [],
+            "traits": [],
+            "intent": "get_items"
+        },
+        {
+            "text": "what items can I get",
+            "entities": [],
+            "traits": [],
+            "intent": "get_items"
+        },
+        {
+            "text": "what items can i purchase",
+            "entities": [],
+            "traits": [],
+            "intent": "get_items"
+        },
+        {
+            "text": "what the price",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's available for purchase",
+            "entities": [],
+            "traits": [],
+            "intent": "get_items"
+        },
+        {
+            "text": "what's in my basket",
+            "entities": [],
+            "traits": [],
+            "intent": "view_cart"
+        },
+        {
+            "text": "what's the cost of apples",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 19,
+                    "end": 25,
+                    "body": "apples",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's the price",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's the price of a coconut",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 22,
+                    "end": 29,
+                    "body": "coconut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's the price of a donut",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 22,
+                    "end": 27,
+                    "body": "donut",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's the price of an egg",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 23,
+                    "end": 26,
+                    "body": "egg",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's the price of coconuts",
+            "entities": [
+                {
+                    "entity": "item_type:item_type",
+                    "start": 20,
+                    "end": 28,
+                    "body": "coconuts",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "get_price"
+        },
+        {
+            "text": "what's the price of eggs",
+            "entities": [],
+            "traits": [],
+            "intent": "get_price"
+        }
+    ]
+}

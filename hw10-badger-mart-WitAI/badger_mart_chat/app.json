@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip badger_mart_chat.zip badger_mart_chat\/app.json badger_mart_chat\/entities\/*.json badger_mart_chat\/intents\/*.json badger_mart_chat\/traits\/*.json badger_mart_chat\/utterances\/*.json badger_mart_chat\/composer\/*.json",
+    "name": "badger_mart_chat",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

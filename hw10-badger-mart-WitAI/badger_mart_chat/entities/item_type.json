@@ -1,0 +1,46 @@
+{
+    "name": "item_type",
+    "roles": [
+        "item_type"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "apple",
+            "synonyms": [
+                "apple",
+                "apples"
+            ]
+        },
+        {
+            "keyword": "bagel",
+            "synonyms": [
+                "bagel",
+                "bagels"
+            ]
+        },
+        {
+            "keyword": "coconut",
+            "synonyms": [
+                "coconut",
+                "coconuts"
+            ]
+        },
+        {
+            "keyword": "donut",
+            "synonyms": [
+                "donut",
+                "donuts"
+            ]
+        },
+        {
+            "keyword": "egg",
+            "synonyms": [
+                "egg",
+                "eggs"
+            ]
+        }
+    ]
+}

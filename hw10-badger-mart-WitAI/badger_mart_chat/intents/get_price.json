@@ -1,0 +1,7 @@
+{
+    "name": "get_price",
+    "entities": [
+        "item_type:item_type",
+        "wit$number:number"
+    ]
+}
